@@ -58,11 +58,11 @@
     iframe.addEventListener('load', function(){
       loaded = true;
       boot.style.opacity = '0';
-      setTimeout(function(){ if(boot) boot.remove(); }, 1000);
+      setTimeout(function(){ if(boot) boot.remove(); }, 1500);
     });
     setTimeout(function(){
       if(!loaded){ document.getElementById('bootMsg').style.display = 'block'; }
-    }, 6000);
+    }, 10000);
   </script>
 </body>
 </html>
