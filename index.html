@@ -58,7 +58,7 @@
     iframe.addEventListener('load', function(){
       loaded = true;
       boot.style.opacity = '0';
-      setTimeout(function(){ if(boot) boot.remove(); }, 400);
+      setTimeout(function(){ if(boot) boot.remove(); }, 1000);
     });
     setTimeout(function(){
       if(!loaded){ document.getElementById('bootMsg').style.display = 'block'; }
